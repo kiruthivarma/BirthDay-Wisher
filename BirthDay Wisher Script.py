@@ -74,7 +74,7 @@ $$ |  $$ |\$$$$$$$ |$$$$$$$  |$$$$$$$  |\$$$$$$$ |      $$$$$$$  |$$ |$$ |      
                     P::::::::P            uu::::::::uu:::ul::::::l  uu::::::::uu:::uk::::::k   k:::::ka::::::::::aa:::a
                     PPPPPPPPPP              uuuuuuuu  uuuullllllll    uuuuuuuu  uuuukkkkkkkk    kkkkkkkaaaaaaaaaa  aaaa                                                                                                                                                                                                                               
 
-
+# Change the above by using 
                                                         /\_/|
                                                   ____/ o o |
                                                 /~____  =ø= /                                                                 ✺
@@ -168,15 +168,15 @@ ________________________________________________________________________________
 
 def task1():
 	for letter in cake:
-		time.sleep(0.001)
+		time.sleep(0.001) # You can Change the Execution Seconds by chaning (0.01)
 		print(letter, end='')
 	for letter in wish:
-		time.sleep(0.01)
+		time.sleep(0.01) # You can Change the Execution Seconds by chaning (0.01)
 		print(letter, end='')
 
 def task2():
         playsound('BTS HAPPY BIRTHDAY GREETING SONG TO ARMY (320kbps).mp3')
-        playsound('[AMV] Naruto Shippuden - Samidare (ksolis Trap Remix).mp3')
+        playsound('Naruto Shippuden - Samidare (ksolis Trap Remix).mp3') # Change your song by changing the song Name
 
 t1 = threading.Thread(target=task1, name='t1')
 t2 = threading.Thread(target=task2, name='t2')
@@ -184,3 +184,5 @@ t2 = threading.Thread(target=task2, name='t2')
 # starting threads
 t1.start()
 t2.start()
+
+#Code By KiruthiVarma
