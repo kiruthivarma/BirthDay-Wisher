@@ -10,4 +10,4 @@
 Solution: Put your Song and script in the same directory and then execute it...
 
 # Playsound Module not found?
-Solution: Just this command in your command prompt -> <mono> pip install playsound </mono>
+Solution: Just Run this command in your command prompt -> <mono> pip install playsound </mono>
