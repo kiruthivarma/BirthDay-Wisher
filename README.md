@@ -6,7 +6,7 @@
 
 ### Errors that may Occur
 
-# Playback not song playing but the code is executing?
+# Playback song not playing but the code is executing?
 Solution: Put your Song and script in the same directory and then execute it...
 
 # Playsound Module not found?
